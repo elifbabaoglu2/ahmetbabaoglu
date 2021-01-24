@@ -1,0 +1,291 @@
+.header {
+    background-color: #1f4c4f;
+    height: 120px;
+    width: 100%;
+    opacity: 71%;
+}
+
+.header-sections {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.name {
+    width: 30%;
+    height: 120px;
+}
+
+.name-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: italic;
+    vertical-align: middle;
+    height: 120px;
+    line-height: 120px;
+}
+
+.sections {
+    width: 60%;
+    height: 120px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.sections-text {
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: middle;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+    text-decoration: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.Ahmet-section {
+    height: 350px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+}
+
+.picture-section {
+    height: 350px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 270px;
+    border: 5px solid#1f4c4f;
+}
+
+.text-big {
+    color: black;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    width: 500px;
+}
+.text-small {
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    height: 350px;
+    width: 500px;
+}
+
+.small {
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+}
+
+.big {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.article-section {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.article {
+    width: 250px;
+    height: 218px;
+    background-color: #c4c4c4;
+}
+
+.button-div {
+    width: 250px;
+    height: 74px;
+    background-color: #1f4c4f;
+    opacity: 71%;
+}
+
+.doktor-section {
+    width: 250px;
+    height: 380px;
+    border: 3px solid #1f4c4f;
+}
+
+.location-section {
+    width: 100%;
+    height: 370px;
+    align-items: center;
+    background-color: #1f4c4f;
+
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.map-section {
+    width: 30%;
+    align-items: center;
+    background-color: #1f4c4f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    opacity: 71%;
+}
+
+.line {
+    margin-left: 20px;
+    border-right: 3px solid white;
+    height: 340px;
+    width: 10px;
+}
+
+.iletisim {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+
+.contact {
+    height: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logos {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.logos-invisible {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.who-is {
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 40px;
+}
+
+.doktor {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 10px;
+    height: 180px;
+}
+
+.individual-doktor {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: 600;
+}
+
+.individual-intro {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins Bold', sans-serif;
+    padding: 5px;
+}
+
+.soc-media {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+}
+
+.aciklama {
+    width: 45%;
+    text-align: left;
+    padding: 20px;
+    border: 4px solid #1f4c4f;
+    margin-top: 30px;
+}
+
+.for-aciklama {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
